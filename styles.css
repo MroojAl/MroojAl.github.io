@@ -1,0 +1,63 @@
+/* Muruj Radan Algarni 2210626 */
+   body {
+        font-family: serif;
+        padding: 20px;
+        background-color: white;
+        color: rgb(14, 24, 101);
+    }   
+    header {
+        background: linear-gradient(to right, #ffffff, #d1e3ff);
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        border-radius: 8px;
+    }    
+    h3 {font-size: 1.5em;
+        font-weight: bold;}
+    section {
+        background: rgb(239, 245, 255);
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 8px;
+    }   
+    .progress-bar {background-color: #A7C6ED; 
+    color:#38298d}
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-top: 10px;
+    }  
+    nav img {
+        width: 100px;
+        transition: transform 0.1s;
+    }  
+    nav img:hover { transform: scale(1.1);}
+    #Projects a:hover{  color: #4f72d4;
+    transition: transform 0.1s; }
+    .icons {display: flex;}
+    .icons a {
+        color: #1c0d71;
+        margin-left:3px;
+        font-size: 1.6em;
+    }
+    .icons a:hover {
+        color: #4f72d4;
+    }
+    footer {
+        text-align: center;
+        font-style: italic;
+    }
+    .responsive-img {
+        width: 100%; 
+        height: auto; 
+        max-width: 400px; 
+    }
+    @media (max-width: 768px) {
+        body { padding: 15px;}
+        h2 { font-size: 2em; }
+    }    
+    @media (max-width: 576px) {
+        header { padding: 10px;}
+        h2 { font-size: 1.8em;}
+    }
